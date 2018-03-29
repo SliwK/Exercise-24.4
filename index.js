@@ -21,6 +21,7 @@ if(timeInSeconds == null) {
 } else if(sec === 0){
   return hour+'h '+ min+'m';
 } else {return hour+'h ' + min+'m ' + sec+'s';}
+
 };
 
 module.exports = formatDate;
